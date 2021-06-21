@@ -1,0 +1,13 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env", {
+				"targets": {
+					"chrome": "67",
+				},
+				"useBuiltIns": "usage" // 按需引入转化规则， 会自动引入babel/polyfill，不需要在业务代码中自动引入
+			}
+		],
+		"@babel/preset-react" //从下往上，从右往左执行
+	]
+}
