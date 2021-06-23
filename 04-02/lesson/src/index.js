@@ -10,3 +10,6 @@ if ('serviceWorker' in navigator) {
 			})
 	})
 }
+
+// npm install workbox-webpack-plugin -D
+//线上代码才要做pwa处理，使得即使服务器挂掉依然有缓存可以访问

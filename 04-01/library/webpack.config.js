@@ -8,6 +8,10 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'library.js',
 		library: 'root',
-		libraryTarget: 'umd'
+		libraryTarget: 'umd' // window, this
 	}
 }
+
+// 登陆www.npmjs.com
+// npm addUser 添加用户名密码
+// npm publish 发布库

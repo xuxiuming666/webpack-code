@@ -38,7 +38,7 @@ const prodConfig = {
 			filename: '[name].css',
 			chunkFilename: '[name].chunk.css'
 		}),
-		new WorkboxPlugin.GenerateSW({
+		new WorkboxPlugin.GenerateSW({ // service worker
 			clientsClaim: true,
 			skipWaiting: true
 		})
